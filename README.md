@@ -20,11 +20,18 @@ Backend is create with the next stack \
 
  `pipenv shell` \
  `pipenv install` \
- `python app.py`
+ `python app.py` \
+  http://64.225.28.124:5000/api/v1/tours       (Actual endpoint active)
+# UI 
+ http://64.225.28.124/ 
+# SWAGGER
+ http://64.225.28.124:8001/
  
  # Swagger and apisprout
  `cd api/oas3/ ` && `docker-compose up -d`
   PORT=8080
+ 
+ 
  
  
   

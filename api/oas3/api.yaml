@@ -1,0 +1,308 @@
+openapi: "3.0.0"
+info:
+  version: 1.0.0
+  title: Traveler App API
+  description: API for Traveler App
+  license:
+    name: MIT
+servers:
+  - url: http://64.225.28.124:8000
+  - url: http://64.225.28.124:5000
+  - url: http://localhost:8000
+paths:
+  /api/v1/tours:
+    get:
+      description: Get the list of Tours
+      tags:
+        - Tours
+      parameters:
+        - name: limit
+          in: query
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: "Tour Packs"
+          content:
+            application/json:
+              schema:
+                type: array
+                nullable: true
+                items:
+                  $ref: "#/components/schemas/Tour"
+              example:
+                - id: "3402397a-01a6-4bad-87a8-cdc36e4e6c0c"
+                  image: "https://boliviamia.net/Images/Attractionphotos/atop-deathroad-01.jpg"
+                  title: "El mejor recorrido en Bici hasta Incachaca"
+                  brief: "Hermoso paisaje tienes la oportunidad de hacer actividades variadas desde un vertiginoso descenso"
+                  description: "Cochabamba es una ciudad boliviana, capital del departamento homónimo y de la provincia de Cercado. Se encuentra situada en el centro del país, en el valle del mismo nombre.
+                                      Tiene una población de 1 113 474 habitantes en el área metropolitana (Censo 2012)1​ y pertenece a la Región metropolitana de Kanata junto a los municipios de Sacaba, Quillacollo, Colcapirhua, Tiquipaya, Vinto y Sipe Sipe.
+                                      Cochabamba se encuentra en un valle de tierra fértil y productiva a 2558 m de altura. La ciudad, rodeada por campos de cultivos y valiosos vestigios preincaicos e incaicos, conserva su personalidad virreinal."
+                  duration: "1 hour"
+                  transportType: "Car"
+                  location: "Cochabamba"
+                  rating: 4.59
+                  ratingCount: 234
+                - id: "3402397a-01a6-4bad-87a8-cdc36e4e6458"
+                  image: "https://i.ytimg.com/vi/C7-N9Kc9lEc/maxresdefault.jpg"
+                  title: "Camino a la piedra de Guatapé"
+                  brief: "Conoce la historia del Peñol de Guatapé, todas las anécdotas mientras viajas a la piedra."
+                  description: "Son 740 escalones que te llevan a la cima del imponente monolito Peñón de Guatapé o piedra del Peñol de 220 metros de altura, un sitio que por su singularidad se ha convertido en uno de los destinos imperdibles de Antioquia,
+                                      para quienes desean conocer además de este atractivo, un auténtico pueblito paisa. Este atractivo se encuentra ubicado entre el Peñol y Guatapé, un lugar estratégico para quienes suben a su cumbre,
+                                      ya que logran obtener la mejor panorámica de la región y del embalse de más de 2 200 hectáreas de extensión,
+                                      que conforman un paisaje de varios lagos, color verde esmeralda, que surcan diversas montañas e islas.
+                                      Pero antes de que subas y si eres curioso, encontrarás escrita la historia y datos relevantes de esta roca y durante el ascenso vas a poder saber en qué escalón te encuentras, porque todos están enumerados"
+                  duration: "2 hours"
+                  transportType: "Car"
+                  location: "Guatapé"
+                  rating: 4.8
+                  ratingCount: 234
+                - id: "3402397a-01a6-4bad-87a8-cdc36e446c0c"
+                  image: "https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2016/11/27010329/fidel-bahia-2-ap-portada-2.jpg"
+                  title: "Historia de las playas de Bahia a pie"
+                  brief: "Hace 50 años unos 1.500 exiliados cubanos entrenados y financiados por la CIA"
+                  description: "Situado en el Archipiélago de Tinharé, a 240 Km de Salvador, la capital de Bahía, Ilha de Boipeba fue elegida por Trip Advisor en 2013 como la segunda mejor isla en América del Sur.
+                                      La Isla de Boipeba es el hogar de una densa selva atlántica, con marismas, dunas y extensos manglares, y con frondosos cocoteros enmarcando las playas.
+                                      Hay muchas playas hermosas en Boipeba, pero Moreré no sólo es la más bella de la isla, sino de toda Bahia.
+                                      Famosa por sus claras piscinas de aguas calientes cristalinas y arrecifes de coral, Praia de Moreré es perfecta para bucear y nadar. Hay muchas piscinas en esta playa, pero las mejores se encuentran en alto mar y sólo se puede accederlas en barco durante la marea baja."
+                  duration: "3 hours"
+                  transportType: "a pie"
+                  location: "Bahia"
+                  rating: 4.49
+                  ratingCount: 234
+                - id: "3402397a-01a6-4bad-87a8-cdc36e4e6f3b"
+                  image: "https://www.afd.fr/sites/afd/files/styles/visuel_principal/public/2018-12-03-13-21/cuba-la-havane-rue-pedro-szekely-flickr.jpg?itok=QUVxvTZJ"
+                  title: "Cuba en bus, conociendo la Revolución Cubana"
+                  brief: "Conoce los mejores de Cuba y la verdadera vida de los cubanos sigue esta ruta."
+                  description: "A partir de la fundación de la Villa de San
+                                      Cristóbal de La Habana en el año 1519, se dice
+                                      que los agasajos fundacionales coincidían con los
+                                      de Santiago Apóstol el 25 de julio, por lo que el
+                                      Obispo no podía asistir a las celebraciones de La
+                                      Habana. Un buen día, no determinado, la ciudad
+                                      jó sus festejos para el 16 de noviembre, y por
+                                      fuerza de la tradición, los habaneros acuden al
+                                      Templete, sitio fundacional, para darle tres
+                                      vueltas a una legendaria ceiba y pedir igual
+                                      número de deseos al santo patrono."
+                  duration: "2 hours"
+                  transportType: "Bus"
+                  location: "Bahia"
+                  rating: 4.59
+                  ratingCount: 234
+                - id: "3402397a-023-4bad-87a8-cdc36e4e6c0c"
+                  image: "https://cdn.semanariolacalle.com/2018/10/bogota_eje_cafetero_cartagena-1024x683.jpg"
+                  title: "Ruta del tintico, lo mejor del café de Colombia"
+                  brief: "Paisaje de montañas, cafetales, guayacanes, yarumos, guaduales y platanales, así es Colombia"
+                  description: "En Cultor solo sirven cafés 100 % sostenibles. Eso quiere decir que hacen todo un estudio del origen, los cultivadores, el mercado y las condiciones medioambientales en las que crece la mata.
+                                      La idea es que usted vaya, se ‘culturice‘ —ya va siendo hora— y deje que le echen el cuento que hay detrás del producto que escoja, pues cada café está bautizado con el nombre de la persona que lo sembró.
+                                      En esta casa se toma el tintico —literalmente— recién hecho, pues la gente de Varietale cuenta con su propia tostadora.
+                                      Le ofrecen cafés de origen de Santander, Huila, Nariño, la Sierra Nevada de Santa Marta... y nueve métodos de filtrado (tranquilo que allá le explican las propiedades de cada uno).
+                                      Si le gusta mucho el café, inscríbase en los talleres quincenales que organizan para entusiastas; si no, vaya también, pues la carta tiene 20 variedades de té."
+                  duration: "3 hours"
+                  transportType: "Car"
+                  location: "Eje Cafetero"
+                  rating: 4.16
+                  ratingCount: 234
+                - id: "3902397a-023-4bad-87a8-cdc36e4e6c0c"
+                  image: "https://blogapi.uber.com/wp-content/uploads/2018/05/BO_Disfruta-de-la-noche-en-estos-X-boliches-de-La-Paz.jpg"
+                  title: "Tour de Boliches en la Ciudad Maravilla"
+                  brief: "Como toda ciudad con una vida nocturna “que se respeta,” La Paz cuenta con su propio bar irlandés."
+                  description: "También ubicado en la misma zona de Sopocachi, desde hace más de 25 años Equinoccio es sinónimo de rock boliviano y un símbolo de la vida nocturna de La Paz. Algunas de las mejores bandas, tanto locales como de otras latitudes de Bolivia, han pasado por el escenario del Equi.
+                                      Es un lugar en el que los amantes del rock se sienten siempre como en casa."
+                  duration: "2 hours"
+                  transportType: "Bus"
+                  location: "La Paz"
+                  rating: 4.69
+                  ratingCount: 234
+                - id: "4912397a-023-4bad-87a8-cdc36e4e6c0c"
+                  image: "https://www.renfe-sncf.com/es-es/blog/PublishingImages/paris-en-bici-capital/paris_en_bici_capital.jpg"
+                  title: "Conoce París en Bici"
+                  brief: "Ahora puedes escoger la bicicleta como compañera de viaje para conocer París"
+                  description: "arís es una ciudad que parece diseñada para el disfrute del viajero. Sus calles, plazas, edificios, jardines y monumentos parecen ideados para que cualquier persona que visite París desee volver.
+                                      Visitar la Torre Eiffel, el Arco del Triunfo o la Catedral de Notre Dame, acudir a un espectáculo de cabaret en el mítico Moulin Rouge, o bien pasear por algunos de los barrios más pintorescos de la ciudad como Montmartre o Montparnasse,
+                                      son algunas de las experiencias que todo el mundo debería tener la ocasión de disfrutar."
+                  duration: "3 hours"
+                  transportType: "Bike"
+                  location: "Paris"
+                  rating: 4.69
+                  ratingCount: 234
+                - id: "4912397a-023-4bad-87a8-cdf36e4e6c0c"
+                  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Metro_de_Medell%C3%ADn%2C_Colombia.jpg/1200px-Metro_de_Medell%C3%ADn%2C_Colombia.jpg"
+                  title: "Recorre Medellin en Metro y conoce su historia"
+                  brief: "El Metro de Medellín es un sistema de transporte masivo que sirve directamente no sólo a Medellin"
+                  description: "Medellín es una ciudad cautivadora, no solo por su clima agradable (ronda los 24 °C durante todo el año); también por la amabilidad de su gente, su deliciosa comida y ese encanto paisa que enamora a los visitantes.
+                                      El humor campesino de los habitantes de Medellín, que se refleja en las trovas antioqueñas, los bailes típicos y en general en la cultura paisa, se mezcla con la vida agitada de la metrópoli.
+                                      No hay montañas ni ríos que puedan amilanar a estas personas, quienes tienen uno de los territorios más prolíficos del país, con grandes empresas y crecimiento en todos los sectores.
+                                      De hecho, el ingen io es una característica de los antioqueños, por lo que no es extraño que en 2013 Medellín haya sido nombrada la Ciudad más Innovadora del Mundo en el concurso City of the Year del Wall Street Journal. "
+                  duration: "3 hours"
+                  transportType: "Subway"
+                  location: "Medellin"
+                  rating: 4.2
+                  ratingCount: 234
+  /api/v1/tours/{tourId}:
+    get:
+      description: Get a single tour by id
+      tags:
+        - Tours
+      parameters:
+        - name: tourId
+          description: id of the tour
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Get Tour
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Tour'
+              example:
+                id: "4912397a-023-4bad-87a8-cdf36e4e6c0c"
+                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Metro_de_Medell%C3%ADn%2C_Colombia.jpg/1200px-Metro_de_Medell%C3%ADn%2C_Colombia.jpg"
+                title: "Recorre Medellin en Metro y conoce su historia"
+                brief: "El Metro de Medellín es un sistema de transporte masivo que sirve directamente no sólo a Medellin"
+                description: "Medellín es una ciudad cautivadora, no solo por su clima agradable (ronda los 24 °C durante todo el año); también por la amabilidad de su gente, su deliciosa comida y ese encanto paisa que enamora a los visitantes.
+                                      El humor campesino de los habitantes de Medellín, que se refleja en las trovas antioqueñas, los bailes típicos y en general en la cultura paisa, se mezcla con la vida agitada de la metrópoli.
+                                      No hay montañas ni ríos que puedan amilanar a estas personas, quienes tienen uno de los territorios más prolíficos del país, con grandes empresas y crecimiento en todos los sectores.
+                                      De hecho, el ingen io es una característica de los antioqueños, por lo que no es extraño que en 2013 Medellín haya sido nombrada la Ciudad más Innovadora del Mundo en el concurso City of the Year del Wall Street Journal. "
+                duration: "3 hours"
+                transportType: "Subway"
+                location: "Medellin"
+                rating: 4.2
+                ratingCount: 234
+        '404':
+          description: "Tour doesn't exists"
+  /api/v1/tours/{tourId}/comments:
+    get:
+      description: Get all comments for tourid
+      tags:
+        - Tours
+      parameters:
+        - name: tour id
+          description: id of the tour
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Get comments Tour
+          content:
+            application/json:
+              schema:
+                type: array
+                nullable: true
+                $ref: '#/components/schemas/Tour'
+              example:
+              - id: "1j75h29fm03j0ao8"
+                name: "Javier Roca"
+                avatar: "https://api.adorable.io/avatars/40/javier@adorable.io.png"
+                rating: 4
+                creationDate: "22/04/2021"
+                content: "It was a great experience, its perfect for spend time with friends"
+                resources:
+                        [
+                            {
+                              uri: "https://cdn.zeplin.io/5e1f6633eaa26ca7c49cab85/assets/B1D1D834-4632-4645-9F3E-3817DDBEDB34.png",
+                              type: "image",
+                              name: "guatape"
+                            }
+                        ]
+              - id: "03g6d5an2m3l43i4n"
+                name: "Ramiro ergueta"
+                avatar: "https://api.adorable.io/avatars/40/ramiro@adorable.io.png"
+                rating: 3
+                creationDate: "22/04/2021"
+                content: "Its wonderful place, i love it"
+                resources: []
+              - id: "37h6km2m3px0a8"
+                name: "Gary ascuy"
+                avatar: "https://api.adorable.io/avatars/40/gary@adorable.io.png"
+                rating: 4
+                creationDate: "02/11/2020"
+                content: "I like so much, is very pretty"
+                resources: []
+        '404':
+          description: "dont have comments"
+components:
+  schemas:
+    Tour:
+      required:
+        - Tour
+      properties:
+
+        id:
+          description: "guid generated from DB. Not required"
+          type: string
+          example: "694f79e8-bef1-496f-bb31-098c97e8cf68"
+          readOnly: true
+        image:
+          description: "picture url of our tour"
+          type: string
+          example: "https://i.ytimg.com/vi/C7-N9Kc9lEc/maxresdefault.jpg"
+        title:
+          description: "the name of the tour"
+          type: string
+          example: "Guatuapé"
+        brief:
+          description: "A brief of the tour"
+          type: string
+          example: "Conoce la historia del Peñol de Guatapé, todas las anécdotas mientras viajas a la piedra."
+        description:
+          description: "detail description of the tour"
+          type: string
+          example:   "Medellín es una ciudad cautivadora, no solo por su clima agradable (ronda los 24 °C durante todo el año); también por la amabilidad de su gente, su deliciosa comida y ese encanto paisa que enamora a los visitantes."
+        duration:
+          description: "time of tour"
+          type: string
+          example: "22/04/2021"
+        transportType:
+          description: "type of transport the tour"
+          type: string
+          example: "Car"
+        location:
+          description: "City near to place"
+          type: string
+          example: "Guatapé"
+        rating:
+          description: "average rating from all users rating"
+          type: number
+          example: 4.8
+        ratingCount:
+          description: "amount of users that give a rating"
+          type: number
+          example: 234
+        userId:
+            description: user id
+            type: string
+            example: 37h6km2m3px0a8
+        name:
+            description: user name
+            type: string
+            example: "Gary ascuy"
+        avatar:
+            description: avatar for the user
+            type: string
+            example: "https://api.adorable.io/avatars/40/gary@adorable.io.png"
+        creationDate:
+            description: date create comment
+            type: string
+            example: "02/11/2020"
+        content:
+            description: content comment
+            type: string
+            example: I like so much, is very pretty
+        resources:
+            description: type of resources
+            type: object
+            nullable: true
+            example:  [
+                            {
+                            uri: "https://cdn.zeplin.io/5e1f6633eaa26ca7c49cab85/assets/B1D1D834-4632-4645-9F3E-3817DDBEDB34.png",
+                            type: "image",
+                            name: "foto 1"
+                            }
+                        ]

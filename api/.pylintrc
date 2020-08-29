@@ -3,5 +3,13 @@ disable=
     C0114, # missing-module-docstring
     C0116, # missing-function-docstring
     C0115, # missing-class-docstring
-    C0103, # Constants
-    E0401, # error import
+    C0103, # constants
+    E0401, # error-import
+    C0301, # line-too-long
+    R0201, # method-could-be a function
+    R0903, # too-few-public-methods
+    R1721, # unnecessary-comprehension
+    E1101, # no-member
+    W0702, # bare-except
+    W0703, # Catching too general exception
+    W0613, # unused-argument

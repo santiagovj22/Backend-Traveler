@@ -1,0 +1,48 @@
+version: '3.8'
+services:
+  ui:
+    container_name: ui
+    image: $CI_REGISTRY_IMAGE/ui
+    build:
+      context: ./ui
+      dockerfile: Dockerfile
+    ports:
+      - '80:80'
+
+  api:
+    container_name: api
+    image: $CI_REGISTRY_IMAGE/api
+    environment:
+      DB_TRAVELER_CONNECTION: $DB_TRAVELER_CONNECTION
+      JWT_ALGORITHM: $JWT_ALGORITHM
+      JWT_DECODE_AUDIENCE: $JWT_DECODE_AUDIENCE
+      JWT_IDENTITY_CLAIM: $JWT_IDENTITY_CLAIM
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    ports:
+      - '5000:5000'
+
+  apisprout:
+    container_name: apisprout_API
+    image: $CI_REGISTRY_IMAGE/apisprout
+    build:
+      context: ./api/oas3
+      dockerfile: apisprout.dockerfile
+    volumes:
+      - ./api/oas3:/oas
+    ports:
+      - '8000:8000'
+
+  swagger_ui:
+    container_name: swagger_io_API
+    image: $CI_REGISTRY_IMAGE/swaggerapi
+    build:
+      context: ./api/oas3
+      dockerfile: swagger.dockerfile
+    volumes:
+      - ./api/oas3:/oas
+    environment:
+      SWAGGER_JSON: '/oas/api.yaml'
+    ports:
+      - '8001:8080'

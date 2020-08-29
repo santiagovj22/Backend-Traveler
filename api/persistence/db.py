@@ -1,14 +1,27 @@
-from flask_pymongo import PyMongo
+import logging
 
-__DB__ = {'ready': False, 'mongo': PyMongo(), 'tours': {}}
+from persistence.mongo_db import DatabaseConnection
+
+DB = DatabaseConnection()
+
+LOG = logging.getLogger('MongoDB')
+
 
 def init_db(app):
-    '''Init conf database'''
-    if not __DB__['ready']:
-        __DB__['ready'] = True
-        __DB__['mongo'].init_app(app)
-        __DB__['tours'] = __DB__['mongo'].db.get_collection('tours')
+    DB.init_db(app)
+
 
 def get_tours_collection():
-    '''Get collection tours from db'''
-    return __DB__['tours']
+    return DB.get_collection('tours')
+
+
+def get_users_collection():
+    return DB.get_collection('users')
+
+
+def get_landmarks_collection():
+    return DB.get_collection('landmarks')
+
+
+def get_experiences_collections():
+    return DB.get_collection('experiences')

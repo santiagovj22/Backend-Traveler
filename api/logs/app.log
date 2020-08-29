@@ -1,129 +1,195 @@
-2020-05-08 22:53:23,888 DEBUG app MainThread : Starting API Server
-2020-05-08 22:53:23,895 DEBUG Tours Controller MainThread : Starting Tours Controller
-2020-05-08 22:53:23,912 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2020-05-08 22:53:23,914 INFO werkzeug MainThread :  * Restarting with stat
-2020-05-08 22:53:24,565 DEBUG app MainThread : Starting API Server
-2020-05-08 22:53:24,574 DEBUG Tours Controller MainThread : Starting Tours Controller
-2020-05-08 22:53:24,589 WARNING werkzeug MainThread :  * Debugger is active!
-2020-05-08 22:53:24,591 INFO werkzeug MainThread :  * Debugger PIN: 164-914-456
-2020-05-08 22:59:29,799 INFO werkzeug Thread-2 : 127.0.0.1 - - [08/May/2020 22:59:29] "[37mGET /api/v1/tours/5eb1cbe8ac46be6fab88bc73 HTTP/1.1[0m" 200 -
-2020-05-08 22:59:59,764 INFO werkzeug Thread-3 : 127.0.0.1 - - [08/May/2020 22:59:59] "[37mGET /api/v1/tours/5eb1cbe8ac46be6fab88bc73 HTTP/1.1[0m" 200 -
-2020-05-08 23:00:09,094 INFO werkzeug Thread-4 : 127.0.0.1 - - [08/May/2020 23:00:09] "[33mGET /api/v1/tours/ HTTP/1.1[0m" 404 -
-2020-05-08 23:00:50,936 INFO werkzeug Thread-5 : 127.0.0.1 - - [08/May/2020 23:00:50] "[33mGET /api/v1/tours/ HTTP/1.1[0m" 404 -
-2020-05-08 23:01:16,534 INFO werkzeug MainThread :  * Detected change in '/home/santiago22/Desktop/actualizado/traveler/api/app.py', reloading
-2020-05-08 23:01:17,082 INFO werkzeug MainThread :  * Restarting with stat
-2020-05-08 23:01:17,649 DEBUG app MainThread : Starting API Server
-2020-05-08 23:01:17,655 DEBUG Tours Controller MainThread : Starting Tours Controller
-2020-05-08 23:01:17,668 WARNING werkzeug MainThread :  * Debugger is active!
-2020-05-08 23:01:17,669 INFO werkzeug MainThread :  * Debugger PIN: 164-914-456
-2020-05-08 23:01:24,800 INFO werkzeug MainThread :  * Detected change in '/home/santiago22/Desktop/actualizado/traveler/api/app.py', reloading
-2020-05-08 23:01:25,238 INFO werkzeug MainThread :  * Restarting with stat
-2020-05-08 23:01:25,810 DEBUG app MainThread : Starting API Server
-2020-05-08 23:01:25,819 DEBUG Tours Controller MainThread : Starting Tours Controller
-2020-05-08 23:01:25,834 WARNING werkzeug MainThread :  * Debugger is active!
-2020-05-08 23:01:25,836 INFO werkzeug MainThread :  * Debugger PIN: 164-914-456
-2020-05-08 23:01:42,133 INFO werkzeug MainThread :  * Detected change in '/home/santiago22/Desktop/actualizado/traveler/api/app.py', reloading
-2020-05-08 23:01:42,421 INFO werkzeug MainThread :  * Restarting with stat
-2020-05-08 23:01:43,008 DEBUG app MainThread : Starting API Server
-2020-05-08 23:01:43,016 DEBUG Tours Controller MainThread : Starting Tours Controller
-2020-05-08 23:01:43,031 WARNING werkzeug MainThread :  * Debugger is active!
-2020-05-08 23:01:43,032 INFO werkzeug MainThread :  * Debugger PIN: 164-914-456
-2020-05-08 23:01:46,075 INFO werkzeug MainThread :  * Detected change in '/home/santiago22/Desktop/actualizado/traveler/api/app.py', reloading
-2020-05-08 23:01:46,608 INFO werkzeug MainThread :  * Restarting with stat
-2020-05-08 23:01:47,187 DEBUG app MainThread : Starting API Server
-2020-05-08 23:01:47,195 DEBUG Tours Controller MainThread : Starting Tours Controller
-2020-05-08 23:01:47,209 WARNING werkzeug MainThread :  * Debugger is active!
-2020-05-08 23:01:47,210 INFO werkzeug MainThread :  * Debugger PIN: 164-914-456
-2020-05-08 23:01:56,357 INFO werkzeug MainThread :  * Detected change in '/home/santiago22/Desktop/actualizado/traveler/api/app.py', reloading
-2020-05-08 23:01:56,849 INFO werkzeug MainThread :  * Restarting with stat
-2020-05-08 23:01:57,697 DEBUG app MainThread : Starting API Server
-2020-05-08 23:01:57,703 DEBUG Tours Controller MainThread : Starting Tours Controller
-2020-05-08 23:01:57,719 WARNING werkzeug MainThread :  * Debugger is active!
-2020-05-08 23:01:57,721 INFO werkzeug MainThread :  * Debugger PIN: 164-914-456
-2020-05-08 23:01:59,747 INFO werkzeug MainThread :  * Detected change in '/home/santiago22/Desktop/actualizado/traveler/api/app.py', reloading
-2020-05-08 23:02:00,277 INFO werkzeug MainThread :  * Restarting with stat
-2020-05-08 23:02:00,856 DEBUG app MainThread : Starting API Server
-2020-05-08 23:02:00,863 DEBUG Tours Controller MainThread : Starting Tours Controller
-2020-05-08 23:02:00,877 WARNING werkzeug MainThread :  * Debugger is active!
-2020-05-08 23:02:00,878 INFO werkzeug MainThread :  * Debugger PIN: 164-914-456
-2020-05-08 23:02:11,077 INFO werkzeug MainThread :  * Detected change in '/home/santiago22/Desktop/actualizado/traveler/api/app.py', reloading
-2020-05-08 23:02:11,488 INFO werkzeug MainThread :  * Restarting with stat
-2020-05-08 23:02:12,198 DEBUG app MainThread : Starting API Server
-2020-05-08 23:02:12,212 DEBUG Tours Controller MainThread : Starting Tours Controller
-2020-05-08 23:02:12,231 WARNING werkzeug MainThread :  * Debugger is active!
-2020-05-08 23:02:12,231 INFO werkzeug MainThread :  * Debugger PIN: 164-914-456
-2020-05-08 23:02:17,335 INFO werkzeug MainThread :  * Detected change in '/home/santiago22/Desktop/actualizado/traveler/api/app.py', reloading
-2020-05-08 23:02:17,806 INFO werkzeug MainThread :  * Restarting with stat
-2020-05-08 23:02:18,498 DEBUG app MainThread : Starting API Server
-2020-05-08 23:02:18,508 DEBUG Tours Controller MainThread : Starting Tours Controller
-2020-05-08 23:02:18,526 WARNING werkzeug MainThread :  * Debugger is active!
-2020-05-08 23:02:18,527 INFO werkzeug MainThread :  * Debugger PIN: 164-914-456
-2020-05-08 23:02:39,947 INFO werkzeug MainThread :  * Detected change in '/home/santiago22/Desktop/actualizado/traveler/api/app.py', reloading
-2020-05-08 23:02:40,115 INFO werkzeug MainThread :  * Restarting with stat
-2020-05-08 23:02:40,778 DEBUG app MainThread : S
-2020-05-08 23:02:40,807 DEBUG Tours Controller MainThread : Starting Tours Controller
-2020-05-08 23:02:40,852 WARNING werkzeug MainThread :  * Debugger is active!
-2020-05-08 23:02:40,853 INFO werkzeug MainThread :  * Debugger PIN: 164-914-456
-2020-05-08 23:02:42,894 INFO werkzeug MainThread :  * Detected change in '/home/santiago22/Desktop/actualizado/traveler/api/app.py', reloading
-2020-05-08 23:02:43,461 INFO werkzeug MainThread :  * Restarting with stat
-2020-05-08 23:02:44,219 DEBUG app MainThread : Server 
-2020-05-08 23:02:44,228 DEBUG Tours Controller MainThread : Starting Tours Controller
-2020-05-08 23:02:44,244 WARNING werkzeug MainThread :  * Debugger is active!
-2020-05-08 23:02:44,246 INFO werkzeug MainThread :  * Debugger PIN: 164-914-456
-2020-05-08 23:02:46,277 INFO werkzeug MainThread :  * Detected change in '/home/santiago22/Desktop/actualizado/traveler/api/app.py', reloading
-2020-05-08 23:02:46,830 INFO werkzeug MainThread :  * Restarting with stat
-2020-05-08 23:02:47,495 DEBUG app MainThread : Server on port 
-2020-05-08 23:02:47,505 DEBUG Tours Controller MainThread : Starting Tours Controller
-2020-05-08 23:02:47,519 WARNING werkzeug MainThread :  * Debugger is active!
-2020-05-08 23:02:47,520 INFO werkzeug MainThread :  * Debugger PIN: 164-914-456
-2020-05-08 23:02:56,655 INFO werkzeug MainThread :  * Detected change in '/home/santiago22/Desktop/actualizado/traveler/api/app.py', reloading
-2020-05-08 23:02:57,095 INFO werkzeug MainThread :  * Restarting with stat
-2020-05-08 23:02:57,705 DEBUG app MainThread : Server on port..
-2020-05-08 23:02:57,713 DEBUG Tours Controller MainThread : Starting Tours Controller
-2020-05-08 23:02:57,728 WARNING werkzeug MainThread :  * Debugger is active!
-2020-05-08 23:02:57,729 INFO werkzeug MainThread :  * Debugger PIN: 164-914-456
-2020-05-08 23:03:17,087 INFO werkzeug MainThread :  * Detected change in '/home/santiago22/Desktop/actualizado/traveler/api/app.py', reloading
-2020-05-08 23:03:17,361 INFO werkzeug MainThread :  * Restarting with stat
-2020-05-08 23:03:18,009 DEBUG app MainThread : Server on port..
-2020-05-08 23:03:25,927 DEBUG app MainThread : Server on port..
-2020-05-08 23:03:39,914 DEBUG app MainThread : Server on port..
-2020-05-08 23:03:39,924 DEBUG Tours Controller MainThread : Starting Tours Controller
-2020-05-08 23:03:39,943 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2020-05-08 23:03:39,945 INFO werkzeug MainThread :  * Restarting with stat
-2020-05-08 23:03:40,486 DEBUG app MainThread : Server on port..
-2020-05-08 23:03:40,493 DEBUG Tours Controller MainThread : Starting Tours Controller
-2020-05-08 23:03:40,510 WARNING werkzeug MainThread :  * Debugger is active!
-2020-05-08 23:03:40,511 INFO werkzeug MainThread :  * Debugger PIN: 164-914-456
-2020-05-08 23:03:44,216 INFO werkzeug Thread-2 : 127.0.0.1 - - [08/May/2020 23:03:44] "[33mGET /api/v1/tours/ HTTP/1.1[0m" 404 -
-2020-05-08 23:03:47,612 DEBUG Tours Controller Thread-3 : Called from the web
-2020-05-08 23:03:48,673 INFO werkzeug Thread-3 : 127.0.0.1 - - [08/May/2020 23:03:48] "[37mGET /api/v1/tours HTTP/1.1[0m" 200 -
-2020-05-08 23:04:39,732 INFO werkzeug MainThread :  * Detected change in '/home/santiago22/Desktop/actualizado/traveler/api/controllers/tours_controller.py', reloading
-2020-05-08 23:04:40,228 INFO werkzeug MainThread :  * Restarting with stat
-2020-05-08 23:04:40,803 DEBUG app MainThread : Server on port..
-2020-05-08 23:04:40,810 DEBUG Tours Controller MainThread : S Tours Controller
-2020-05-08 23:04:40,823 WARNING werkzeug MainThread :  * Debugger is active!
-2020-05-08 23:04:40,824 INFO werkzeug MainThread :  * Debugger PIN: 164-914-456
-2020-05-08 23:04:43,878 INFO werkzeug MainThread :  * Detected change in '/home/santiago22/Desktop/actualizado/traveler/api/controllers/tours_controller.py', reloading
-2020-05-08 23:04:44,533 INFO werkzeug MainThread :  * Restarting with stat
-2020-05-08 23:04:45,184 DEBUG app MainThread : Server on port..
-2020-05-08 23:04:45,192 DEBUG Tours Controller MainThread : Start Tours Controller
-2020-05-08 23:04:45,204 WARNING werkzeug MainThread :  * Debugger is active!
-2020-05-08 23:04:45,205 INFO werkzeug MainThread :  * Debugger PIN: 164-914-456
-2020-05-08 23:04:46,222 INFO werkzeug MainThread :  * Detected change in '/home/santiago22/Desktop/actualizado/traveler/api/controllers/tours_controller.py', reloading
-2020-05-08 23:04:46,771 INFO werkzeug MainThread :  * Restarting with stat
-2020-05-08 23:04:47,328 DEBUG app MainThread : Server on port..
-2020-05-08 23:04:47,337 DEBUG Tours Controller MainThread : Starting Tours Controller
-2020-05-08 23:04:47,354 WARNING werkzeug MainThread :  * Debugger is active!
-2020-05-08 23:04:47,354 INFO werkzeug MainThread :  * Debugger PIN: 164-914-456
-2020-05-08 23:04:56,538 INFO werkzeug MainThread :  * Detected change in '/home/santiago22/Desktop/actualizado/traveler/api/controllers/tours_controller.py', reloading
-2020-05-08 23:04:56,941 INFO werkzeug MainThread :  * Restarting with stat
-2020-05-08 23:42:37,262 DEBUG app MainThread : Server on port..
-2020-05-08 23:42:37,269 DEBUG Tours Controller MainThread : Starting Tours Controller
-2020-05-08 23:42:37,284 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-2020-05-08 23:42:37,285 INFO werkzeug MainThread :  * Restarting with stat
-2020-05-08 23:42:37,783 DEBUG app MainThread : Server on port..
-2020-05-08 23:42:37,792 DEBUG Tours Controller MainThread : Starting Tours Controller
-2020-05-08 23:42:37,806 WARNING werkzeug MainThread :  * Debugger is active!
-2020-05-08 23:42:37,809 INFO werkzeug MainThread :  * Debugger PIN: 164-914-456
-2020-05-08 23:42:42,790 DEBUG Tours Controller Thread-2 : Called from the web
-2020-05-08 23:42:44,562 INFO werkzeug Thread-2 : 127.0.0.1 - - [08/May/2020 23:42:44] "[37mGET /api/v1/tours HTTP/1.1[0m" 200 -
+2020-07-09 11:43:08,274 INFO Tours Controller MainThread : Starting Tours Controller
+2020-07-09 11:43:08,274 INFO Tours Service MainThread : Starting tours service
+2020-07-09 11:43:08,275 INFO Database Connection MainThread : Start production database
+2020-07-09 11:43:08,279 INFO Auth Controller MainThread : Starting Auth Controller
+2020-07-09 11:43:08,280 INFO Auth Service MainThread : Starting users service
+2020-07-09 11:43:08,281 INFO Experiences Controller MainThread : Starting experiences Controller
+2020-07-09 11:43:08,282 INFO Experiences Service MainThread : Starting experiences service
+2020-07-09 11:43:08,283 INFO MapView Controller MainThread : Starting Landmark Controller
+2020-07-09 11:43:08,283 INFO Landmark Service MainThread : Starting landmark service
+2020-07-09 11:43:08,285 INFO Favorites Service MainThread : Start Favorites service
+2020-07-09 11:43:08,285 INFO Favorites Controller MainThread : Favorite tours
+2020-07-09 11:43:08,290 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-07-09 11:59:17,299 INFO Tours Controller MainThread : Starting Tours Controller
+2020-07-09 11:59:17,300 INFO Tours Service MainThread : Starting tours service
+2020-07-09 11:59:17,300 INFO Database Connection MainThread : Start production database
+2020-07-09 11:59:17,304 INFO Auth Controller MainThread : Starting Auth Controller
+2020-07-09 11:59:17,304 INFO Auth Service MainThread : Starting users service
+2020-07-09 11:59:17,306 INFO Experiences Controller MainThread : Starting experiences Controller
+2020-07-09 11:59:17,306 INFO Experiences Service MainThread : Starting experiences service
+2020-07-09 11:59:17,307 INFO MapView Controller MainThread : Starting Landmark Controller
+2020-07-09 11:59:17,308 INFO Landmark Service MainThread : Starting landmark service
+2020-07-09 11:59:17,309 INFO Favorites Service MainThread : Start Favorites service
+2020-07-09 11:59:17,309 INFO Favorites Controller MainThread : Favorite tours
+2020-07-09 11:59:17,312 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-07-09 12:06:18,798 INFO Tours Controller MainThread : Starting Tours Controller
+2020-07-09 12:06:18,798 INFO Tours Service MainThread : Starting tours service
+2020-07-09 12:06:18,799 INFO Database Connection MainThread : Start production database
+2020-07-09 12:06:18,803 INFO Auth Controller MainThread : Starting Auth Controller
+2020-07-09 12:06:18,804 INFO Auth Service MainThread : Starting users service
+2020-07-09 12:06:18,805 INFO Experiences Controller MainThread : Starting experiences Controller
+2020-07-09 12:06:18,805 INFO Experiences Service MainThread : Starting experiences service
+2020-07-09 12:06:18,807 INFO MapView Controller MainThread : Starting Landmark Controller
+2020-07-09 12:06:18,807 INFO Landmark Service MainThread : Starting landmark service
+2020-07-09 12:06:18,809 INFO Favorites Service MainThread : Start Favorites service
+2020-07-09 12:06:18,809 INFO Favorites Controller MainThread : Favorite tours
+2020-07-09 12:06:18,814 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-07-09 13:54:53,081 INFO Tours Controller MainThread : Starting Tours Controller
+2020-07-09 13:54:53,081 INFO Tours Service MainThread : Starting tours service
+2020-07-09 13:54:53,082 INFO Database Connection MainThread : Start production database
+2020-07-09 13:54:53,086 INFO Auth Controller MainThread : Starting Auth Controller
+2020-07-09 13:54:53,087 INFO Auth Service MainThread : Starting users service
+2020-07-09 13:54:53,089 INFO Experiences Controller MainThread : Starting experiences Controller
+2020-07-09 13:54:53,090 INFO Experiences Service MainThread : Starting experiences service
+2020-07-09 13:54:53,093 INFO MapView Controller MainThread : Starting Landmark Controller
+2020-07-09 13:54:53,093 INFO Landmark Service MainThread : Starting landmark service
+2020-07-09 13:54:53,096 INFO Favorites Service MainThread : Start Favorites service
+2020-07-09 13:54:53,096 INFO Favorites Controller MainThread : Favorite tours
+2020-07-09 13:54:53,101 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-07-09 16:09:24,329 INFO Tours Controller MainThread : Starting Tours Controller
+2020-07-09 16:09:24,330 INFO Tours Service MainThread : Starting tours service
+2020-07-09 16:09:24,330 INFO Database Connection MainThread : Start production database
+2020-07-09 16:09:24,334 INFO Auth Controller MainThread : Starting Auth Controller
+2020-07-09 16:09:24,334 INFO Auth Service MainThread : Starting users service
+2020-07-09 16:09:24,336 INFO Experiences Controller MainThread : Starting experiences Controller
+2020-07-09 16:09:24,337 INFO Experiences Service MainThread : Starting experiences service
+2020-07-09 16:09:24,339 INFO Landmark Controller MainThread : Starting Landmark Controller
+2020-07-09 16:09:24,339 INFO Landmark Service MainThread : Starting landmark service
+2020-07-09 16:09:24,342 INFO Favorites Service MainThread : Start Favorites service
+2020-07-09 16:09:24,342 INFO Favorites Controller MainThread : Favorite tours
+2020-07-09 16:09:24,350 INFO PYMONGOIM_MONGOD MainThread : Cleaning created processes.
+2020-07-09 16:09:54,584 INFO Tours Controller MainThread : Starting Tours Controller
+2020-07-09 16:09:54,585 INFO Tours Service MainThread : Starting tours service
+2020-07-09 16:09:54,585 INFO Database Connection MainThread : Start production database
+2020-07-09 16:09:54,589 INFO Auth Controller MainThread : Starting Auth Controller
+2020-07-09 16:09:54,589 INFO Auth Service MainThread : Starting users service
+2020-07-09 16:09:54,590 INFO Experiences Controller MainThread : Starting experiences Controller
+2020-07-09 16:09:54,591 INFO Experiences Service MainThread : Starting experiences service
+2020-07-09 16:09:54,592 INFO Landmark Controller MainThread : Starting Landmark Controller
+2020-07-09 16:09:54,592 INFO Landmark Service MainThread : Starting landmark service
+2020-07-09 16:09:54,594 INFO Favorites Service MainThread : Start Favorites service
+2020-07-09 16:09:54,594 INFO Favorites Controller MainThread : Favorite tours
+2020-07-09 16:09:54,602 INFO PYMONGOIM_MONGOD MainThread : Cleaning created processes.
+2020-07-09 16:10:15,399 INFO Tours Controller MainThread : Starting Tours Controller
+2020-07-09 16:10:15,399 INFO Tours Service MainThread : Starting tours service
+2020-07-09 16:10:15,399 INFO Database Connection MainThread : Start production database
+2020-07-09 16:10:15,409 INFO Auth Controller MainThread : Starting Auth Controller
+2020-07-09 16:10:15,409 INFO Auth Service MainThread : Starting users service
+2020-07-09 16:10:15,410 INFO Experiences Controller MainThread : Starting experiences Controller
+2020-07-09 16:10:15,410 INFO Experiences Service MainThread : Starting experiences service
+2020-07-09 16:10:15,412 INFO Landmark Controller MainThread : Starting Landmark Controller
+2020-07-09 16:10:15,413 INFO Landmark Service MainThread : Starting landmark service
+2020-07-09 16:10:15,415 INFO Favorites Service MainThread : Start Favorites service
+2020-07-09 16:10:15,415 INFO Favorites Controller MainThread : Favorite tours
+2020-07-09 16:10:15,420 INFO PYMONGOIM_MONGOD MainThread : Cleaning created processes.
+2020-07-09 16:10:42,708 INFO Tours Controller MainThread : Starting Tours Controller
+2020-07-09 16:10:42,712 INFO Tours Service MainThread : Starting tours service
+2020-07-09 16:10:42,712 INFO Database Connection MainThread : Start production database
+2020-07-09 16:10:42,718 INFO Auth Controller MainThread : Starting Auth Controller
+2020-07-09 16:10:42,719 INFO Auth Service MainThread : Starting users service
+2020-07-09 16:10:42,721 INFO Experiences Controller MainThread : Starting experiences Controller
+2020-07-09 16:10:42,722 INFO Experiences Service MainThread : Starting experiences service
+2020-07-09 16:10:42,724 INFO Landmark Controller MainThread : Starting Landmark Controller
+2020-07-09 16:10:42,725 INFO Landmark Service MainThread : Starting landmark service
+2020-07-09 16:10:42,728 INFO Favorites Service MainThread : Start Favorites service
+2020-07-09 16:10:42,729 INFO Favorites Controller MainThread : Favorite tours
+2020-07-09 16:10:42,748 INFO PYMONGOIM_MONGOD MainThread : Cleaning created processes.
+2020-07-09 16:12:16,093 INFO Tours Controller MainThread : Starting Tours Controller
+2020-07-09 16:12:16,094 INFO Tours Service MainThread : Starting tours service
+2020-07-09 16:12:16,095 INFO Database Connection MainThread : Start production database
+2020-07-09 16:12:16,099 INFO Auth Controller MainThread : Starting Auth Controller
+2020-07-09 16:12:16,100 INFO Auth Service MainThread : Starting users service
+2020-07-09 16:12:16,102 INFO Experiences Controller MainThread : Starting experiences Controller
+2020-07-09 16:12:16,102 INFO Experiences Service MainThread : Starting experiences service
+2020-07-09 16:12:16,105 INFO Landmark Controller MainThread : Starting Landmark Controller
+2020-07-09 16:12:16,105 INFO Landmark Service MainThread : Starting landmark service
+2020-07-09 16:12:16,108 INFO Favorites Service MainThread : Start Favorites service
+2020-07-09 16:12:16,108 INFO Favorites Controller MainThread : Favorite tours
+2020-07-09 16:12:16,118 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-07-09 17:58:20,189 INFO Tours Controller MainThread : Starting Tours Controller
+2020-07-09 17:58:20,190 INFO Tours Service MainThread : Starting tours service
+2020-07-09 17:58:20,190 INFO Database Connection MainThread : Start production database
+2020-07-09 17:58:20,195 INFO PYMONGOIM_MONGOD MainThread : Cleaning created processes.
+2020-07-09 17:59:32,932 INFO Tours Controller MainThread : Starting Tours Controller
+2020-07-09 17:59:32,932 INFO Tours Service MainThread : Starting tours service
+2020-07-09 17:59:32,932 INFO Database Connection MainThread : Start production database
+2020-07-09 17:59:32,937 INFO Auth Controller MainThread : Starting Auth Controller
+2020-07-09 17:59:32,937 INFO Auth Service MainThread : Starting users service
+2020-07-09 17:59:32,939 INFO Experiences Controller MainThread : Starting experiences Controller
+2020-07-09 17:59:32,939 INFO Experiences Service MainThread : Starting experiences service
+2020-07-09 17:59:32,942 INFO Landmark Controller MainThread : Starting Landmark Controller
+2020-07-09 17:59:32,942 INFO Landmark Service MainThread : Starting landmark service
+2020-07-09 17:59:32,947 INFO Favorites Service MainThread : Start Favorites service
+2020-07-09 17:59:32,947 INFO Favorites Controller MainThread : Favorite tours
+2020-07-09 17:59:32,969 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-07-09 17:59:42,029 INFO werkzeug Thread-1 : 127.0.0.1 - - [09/Jul/2020 17:59:42] "[37mGET /api/v1/tours?page=1&limit=6 HTTP/1.1[0m" 200 -
+2020-07-09 17:59:42,039 INFO werkzeug Thread-2 : 127.0.0.1 - - [09/Jul/2020 17:59:42] "[37mGET /api/v1/tours HTTP/1.1[0m" 200 -
+2020-07-09 17:59:46,194 INFO werkzeug Thread-3 : 127.0.0.1 - - [09/Jul/2020 17:59:46] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350534/experiences?page=1&limit=2 HTTP/1.1[0m" 200 -
+2020-07-09 17:59:46,259 INFO werkzeug Thread-4 : 127.0.0.1 - - [09/Jul/2020 17:59:46] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350534 HTTP/1.1[0m" 200 -
+2020-07-09 18:01:45,451 INFO werkzeug Thread-5 : 127.0.0.1 - - [09/Jul/2020 18:01:45] "[37mOPTIONS /api/v1/auth/login HTTP/1.1[0m" 200 -
+2020-07-09 18:01:45,461 INFO Auth Controller Thread-6 : Entering to login user
+2020-07-09 18:01:45,461 INFO Auth Controller Thread-6 : <Request 'http://localhost:5000/api/v1/auth/login' [POST]>
+2020-07-09 18:01:45,461 INFO Auth Controller Thread-6 : eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJqTzFyU0dwcWdVNW9FYldsN2pKUkhHaUdfeGU5Rk5lUlhmb1htTVE0UGY0In0.eyJqdGkiOiJmZmM5YjQxZi05ZjhjLTRhMTItODBlNy1mZWZkZTE5MjZmZDEiLCJleHAiOjE1OTQzMzYwMDUsIm5iZiI6MCwiaWF0IjoxNTk0MzM1NzA1LCJpc3MiOiJodHRwczovL2Rldi5sb2dpbi5qYWxhLW9uZS5jb20vYXV0aC9yZWFsbXMvdHJhdmVsZXIiLCJhdWQiOiJ0cmF2ZWxlci1hcHAiLCJzdWIiOiIzZWY5M2FlOS1kNzkyLTRiZTAtYjBjYy1jODQyMmU4NTFiMTEiLCJ0eXAiOiJJRCIsImF6cCI6InRyYXZlbGVyLWFwcCIsIm5vbmNlIjoiOTc5YmEyMjUtZDUyMC00OWY0LTk4MmQtMDFiMTYzNDI4M2YyIiwiYXV0aF90aW1lIjoxNTk0MzM1NzAxLCJzZXNzaW9uX3N0YXRlIjoiZmExYmVmOWMtYzhkYS00ODk5LWFhZjktNDAwYTRlNjYyN2VkIiwiYWNyIjoiMSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwibmFtZSI6IkcuIEFsYmVpcm8gQy4iLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJnYWxiZWlyb2NAZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkcuIEFsYmVpcm8iLCJmYW1pbHlfbmFtZSI6IkMuIiwiZW1haWwiOiJnYWxiZWlyb2NAZ21haWwuY29tIn0.DhP48jL7vhPKJxCspkO9Gpy4mYxNU8yTPlsh0DuLDJp3tUpJjNontHsRtr228A2ZV9qwKaH4necbPBM9gc1F317-bG5_TuA0TTYnIlniB4bypNgiAQHPjk6TAJXvH4kN5OpnQmCJPH3u-g3CvjGrSVArtdZEbtKxfoY4Na4A5Vxzv2K52f0-CWPnofGTjLS4Rze4fInbpD5XckVZ7PynxyF5TWTMTBsoJyUsFX4V_QbcE7swcEMCQV92-_6HZTUfcD3-MMa6Qe8jWoGCNfn1IXUxHRcaxzcKW9KH6UZOJe1pF_Z_h3W1n54wq8zHcdBp4dJIUV1CE2jW2OQjVwGyEA
+2020-07-09 18:01:45,752 INFO Auth Controller Thread-6 : {'jti': 'ffc9b41f-9f8c-4a12-80e7-fefde1926fd1', 'exp': 1594336005, 'nbf': 0, 'iat': 1594335705, 'iss': 'https://dev.login.jala-one.com/auth/realms/traveler', 'aud': 'traveler-app', 'sub': '3ef93ae9-d792-4be0-b0cc-c8422e851b11', 'typ': 'ID', 'azp': 'traveler-app', 'nonce': '979ba225-d520-49f4-982d-01b1634283f2', 'auth_time': 1594335701, 'session_state': 'fa1bef9c-c8da-4899-aaf9-400a4e6627ed', 'acr': '1', 'email_verified': False, 'name': 'G. Albeiro C.', 'preferred_username': 'galbeiroc@gmail.com', 'given_name': 'G. Albeiro', 'family_name': 'C.', 'email': 'galbeiroc@gmail.com', 'type': 'access', 'fresh': False, 'user_claims': {}}
+2020-07-09 18:01:45,753 INFO Users Dao Thread-6 : Verify User Registered
+2020-07-09 18:01:45,758 INFO werkzeug Thread-6 : 127.0.0.1 - - [09/Jul/2020 18:01:45] "[37mPOST /api/v1/auth/login HTTP/1.1[0m" 200 -
+2020-07-09 18:01:46,113 INFO werkzeug Thread-7 : 127.0.0.1 - - [09/Jul/2020 18:01:46] "[37mGET /api/v1/tours?page=1&limit=6 HTTP/1.1[0m" 200 -
+2020-07-09 18:01:46,203 INFO werkzeug Thread-8 : 127.0.0.1 - - [09/Jul/2020 18:01:46] "[37mGET /api/v1/tours HTTP/1.1[0m" 200 -
+2020-07-09 18:02:00,825 INFO werkzeug Thread-9 : 127.0.0.1 - - [09/Jul/2020 18:02:00] "[37mGET /api/v1/tours?page=1&limit=6 HTTP/1.1[0m" 200 -
+2020-07-09 18:02:07,415 INFO werkzeug Thread-10 : 127.0.0.1 - - [09/Jul/2020 18:02:07] "[37mGET /api/v1/tours?page=2&limit=6 HTTP/1.1[0m" 200 -
+2020-07-09 18:02:09,396 INFO werkzeug Thread-11 : 127.0.0.1 - - [09/Jul/2020 18:02:09] "[37mGET /api/v1/tours?page=3&limit=6 HTTP/1.1[0m" 200 -
+2020-07-09 18:02:13,217 INFO werkzeug Thread-12 : 127.0.0.1 - - [09/Jul/2020 18:02:13] "[37mGET /api/v1/tours HTTP/1.1[0m" 200 -
+2020-07-09 18:02:28,104 INFO werkzeug Thread-13 : 127.0.0.1 - - [09/Jul/2020 18:02:28] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350532/experiences?page=1&limit=2 HTTP/1.1[0m" 200 -
+2020-07-09 18:02:28,124 INFO werkzeug Thread-14 : 127.0.0.1 - - [09/Jul/2020 18:02:28] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350532 HTTP/1.1[0m" 200 -
+2020-07-09 18:02:31,942 INFO werkzeug Thread-15 : 127.0.0.1 - - [09/Jul/2020 18:02:31] "[33mGET /api/v1/tours/5ef578c1c0a78c3bfa350532/tourview HTTP/1.1[0m" 404 -
+2020-07-09 18:03:57,849 INFO werkzeug Thread-16 : 127.0.0.1 - - [09/Jul/2020 18:03:57] "[33mGET /api/v1/tours/5ef578c1c0a78c3bfa350532/tourview HTTP/1.1[0m" 404 -
+2020-07-09 18:04:05,663 INFO werkzeug Thread-17 : 127.0.0.1 - - [09/Jul/2020 18:04:05] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350533/tourview HTTP/1.1[0m" 200 -
+2020-07-09 18:04:26,673 INFO werkzeug Thread-18 : 127.0.0.1 - - [09/Jul/2020 18:04:26] "[33mGET /api/v1/tours/5ef578c1c0a78c3bfa350532/tourview HTTP/1.1[0m" 404 -
+2020-07-09 18:05:10,859 INFO werkzeug Thread-19 : 127.0.0.1 - - [09/Jul/2020 18:05:10] "[33mGET /api/v1/tours/5ef578c1c0a78c3bfa350532/tourview HTTP/1.1[0m" 404 -
+2020-07-09 18:07:04,751 INFO werkzeug Thread-20 : 127.0.0.1 - - [09/Jul/2020 18:07:04] "[33mGET /api/v1/tours/5ef578c1c0a78c3bfa350532/tourview HTTP/1.1[0m" 404 -
+2020-07-09 18:07:10,358 INFO werkzeug Thread-21 : 127.0.0.1 - - [09/Jul/2020 18:07:10] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350532/experiences?page=1&limit=2 HTTP/1.1[0m" 200 -
+2020-07-09 18:07:10,402 INFO werkzeug Thread-22 : 127.0.0.1 - - [09/Jul/2020 18:07:10] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350532 HTTP/1.1[0m" 200 -
+2020-07-09 18:07:16,322 INFO werkzeug Thread-23 : 127.0.0.1 - - [09/Jul/2020 18:07:16] "[37mGET /api/v1/tours?page=1&limit=6 HTTP/1.1[0m" 200 -
+2020-07-09 18:07:16,361 INFO werkzeug Thread-24 : 127.0.0.1 - - [09/Jul/2020 18:07:16] "[37mGET /api/v1/tours HTTP/1.1[0m" 200 -
+2020-07-09 18:07:20,367 INFO werkzeug Thread-25 : 127.0.0.1 - - [09/Jul/2020 18:07:20] "[37mGET /api/v1/tours?page=2&limit=6 HTTP/1.1[0m" 200 -
+2020-07-09 18:07:22,072 INFO werkzeug Thread-26 : 127.0.0.1 - - [09/Jul/2020 18:07:22] "[37mGET /api/v1/tours?page=3&limit=6 HTTP/1.1[0m" 200 -
+2020-07-09 18:07:23,045 INFO werkzeug Thread-27 : 127.0.0.1 - - [09/Jul/2020 18:07:23] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350533/experiences?page=1&limit=2 HTTP/1.1[0m" 200 -
+2020-07-09 18:07:23,108 INFO werkzeug Thread-28 : 127.0.0.1 - - [09/Jul/2020 18:07:23] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350533 HTTP/1.1[0m" 200 -
+2020-07-09 18:07:23,202 INFO werkzeug Thread-29 : 127.0.0.1 - - [09/Jul/2020 18:07:23] "[37mGET /api/v1/tours?page=4&limit=6 HTTP/1.1[0m" 200 -
+2020-07-09 18:07:32,439 INFO werkzeug Thread-30 : 127.0.0.1 - - [09/Jul/2020 18:07:32] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350533/tourview HTTP/1.1[0m" 200 -
+2020-07-09 18:07:50,901 INFO werkzeug Thread-31 : 127.0.0.1 - - [09/Jul/2020 18:07:50] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350533/tourview HTTP/1.1[0m" 200 -
+2020-07-09 18:09:10,788 INFO werkzeug Thread-32 : 127.0.0.1 - - [09/Jul/2020 18:09:10] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350533/tourview HTTP/1.1[0m" 200 -
+2020-07-09 18:09:21,661 INFO werkzeug Thread-33 : 127.0.0.1 - - [09/Jul/2020 18:09:21] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350533/tourview HTTP/1.1[0m" 200 -
+2020-07-09 18:11:40,139 INFO werkzeug Thread-34 : 127.0.0.1 - - [09/Jul/2020 18:11:40] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350533/tourview HTTP/1.1[0m" 200 -
+2020-07-09 18:13:36,285 INFO werkzeug Thread-35 : 127.0.0.1 - - [09/Jul/2020 18:13:36] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350533/tourview HTTP/1.1[0m" 200 -
+2020-07-09 18:15:31,877 INFO werkzeug Thread-36 : 127.0.0.1 - - [09/Jul/2020 18:15:31] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350533/tourview HTTP/1.1[0m" 200 -
+2020-07-09 18:15:55,093 INFO werkzeug Thread-37 : 127.0.0.1 - - [09/Jul/2020 18:15:55] "[37mGET /api/v1/tours?page=1&limit=6 HTTP/1.1[0m" 200 -
+2020-07-09 18:15:55,235 INFO werkzeug Thread-38 : 127.0.0.1 - - [09/Jul/2020 18:15:55] "[37mGET /api/v1/tours HTTP/1.1[0m" 200 -
+2020-07-09 18:16:50,654 INFO werkzeug Thread-39 : 127.0.0.1 - - [09/Jul/2020 18:16:50] "[37mGET /api/v1/tours?page=1&limit=6 HTTP/1.1[0m" 200 -
+2020-07-09 18:16:50,750 INFO werkzeug Thread-40 : 127.0.0.1 - - [09/Jul/2020 18:16:50] "[37mGET /api/v1/tours HTTP/1.1[0m" 200 -
+2020-07-09 18:17:07,154 INFO werkzeug Thread-41 : 127.0.0.1 - - [09/Jul/2020 18:17:07] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350540/experiences?page=1&limit=2 HTTP/1.1[0m" 200 -
+2020-07-09 18:17:07,285 INFO werkzeug Thread-42 : 127.0.0.1 - - [09/Jul/2020 18:17:07] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350540 HTTP/1.1[0m" 200 -
+2020-07-09 18:17:40,085 INFO werkzeug Thread-43 : 127.0.0.1 - - [09/Jul/2020 18:17:40] "[37mGET /api/v1/tours?page=2&limit=6 HTTP/1.1[0m" 200 -
+2020-07-09 18:17:43,211 INFO werkzeug Thread-44 : 127.0.0.1 - - [09/Jul/2020 18:17:43] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350533/experiences?page=1&limit=2 HTTP/1.1[0m" 200 -
+2020-07-09 18:17:43,262 INFO werkzeug Thread-45 : 127.0.0.1 - - [09/Jul/2020 18:17:43] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350533 HTTP/1.1[0m" 200 -
+2020-07-09 18:17:46,453 INFO werkzeug Thread-46 : 127.0.0.1 - - [09/Jul/2020 18:17:46] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350533/tourview HTTP/1.1[0m" 200 -
+2020-07-09 18:18:50,972 INFO werkzeug Thread-47 : 127.0.0.1 - - [09/Jul/2020 18:18:50] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350533/tourview HTTP/1.1[0m" 200 -
+2020-07-09 18:20:25,919 INFO werkzeug Thread-48 : 127.0.0.1 - - [09/Jul/2020 18:20:25] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350533/tourview HTTP/1.1[0m" 200 -
+2020-07-09 18:27:16,472 INFO werkzeug Thread-49 : 127.0.0.1 - - [09/Jul/2020 18:27:16] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350533/tourview HTTP/1.1[0m" 200 -
+2020-07-09 18:28:04,502 INFO werkzeug Thread-50 : 127.0.0.1 - - [09/Jul/2020 18:28:04] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350533/tourview HTTP/1.1[0m" 200 -
+2020-07-09 18:28:32,123 INFO werkzeug Thread-51 : 127.0.0.1 - - [09/Jul/2020 18:28:32] "[37mGET /api/v1/tours?page=1&limit=6 HTTP/1.1[0m" 200 -
+2020-07-09 18:28:32,201 INFO werkzeug Thread-52 : 127.0.0.1 - - [09/Jul/2020 18:28:32] "[37mGET /api/v1/tours HTTP/1.1[0m" 200 -
+2020-07-09 18:28:34,709 INFO werkzeug Thread-53 : 127.0.0.1 - - [09/Jul/2020 18:28:34] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350541/experiences?page=1&limit=2 HTTP/1.1[0m" 200 -
+2020-07-09 18:28:34,785 INFO werkzeug Thread-54 : 127.0.0.1 - - [09/Jul/2020 18:28:34] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350541 HTTP/1.1[0m" 200 -
+2020-07-09 18:28:46,110 INFO werkzeug Thread-55 : 127.0.0.1 - - [09/Jul/2020 18:28:46] "[33mGET /api/v1/tours/5ef578c1c0a78c3bfa350541/tourview HTTP/1.1[0m" 404 -
+2020-07-09 18:30:43,466 INFO werkzeug Thread-56 : 127.0.0.1 - - [09/Jul/2020 18:30:43] "[37mGET /api/v1/tours?page=1&limit=6 HTTP/1.1[0m" 200 -
+2020-07-09 18:30:43,503 INFO werkzeug Thread-57 : 127.0.0.1 - - [09/Jul/2020 18:30:43] "[37mGET /api/v1/tours HTTP/1.1[0m" 200 -
+2020-07-09 18:30:47,513 INFO werkzeug Thread-58 : 127.0.0.1 - - [09/Jul/2020 18:30:47] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350541/experiences?page=1&limit=2 HTTP/1.1[0m" 200 -
+2020-07-09 18:30:47,596 INFO werkzeug Thread-59 : 127.0.0.1 - - [09/Jul/2020 18:30:47] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350541 HTTP/1.1[0m" 200 -
+2020-07-09 18:30:49,378 INFO werkzeug Thread-60 : 127.0.0.1 - - [09/Jul/2020 18:30:49] "[33mGET /api/v1/tours/5ef578c1c0a78c3bfa350541/tourview HTTP/1.1[0m" 404 -
+2020-07-09 18:30:57,789 INFO werkzeug Thread-61 : 127.0.0.1 - - [09/Jul/2020 18:30:57] "[37mGET /api/v1/tours?page=2&limit=6 HTTP/1.1[0m" 200 -
+2020-07-09 18:31:00,179 INFO werkzeug Thread-62 : 127.0.0.1 - - [09/Jul/2020 18:31:00] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350533/experiences?page=1&limit=2 HTTP/1.1[0m" 200 -
+2020-07-09 18:31:00,228 INFO werkzeug Thread-63 : 127.0.0.1 - - [09/Jul/2020 18:31:00] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350533 HTTP/1.1[0m" 200 -
+2020-07-09 18:31:02,337 INFO werkzeug Thread-64 : 127.0.0.1 - - [09/Jul/2020 18:31:02] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350533/tourview HTTP/1.1[0m" 200 -
+2020-07-09 18:31:37,965 INFO werkzeug Thread-65 : 127.0.0.1 - - [09/Jul/2020 18:31:37] "[37mGET /api/v1/tours/5ef578c1c0a78c3bfa350533/tourview HTTP/1.1[0m" 200 -
+2020-07-09 18:32:15,504 INFO PYMONGOIM_MONGOD MainThread : Cleaning created processes.

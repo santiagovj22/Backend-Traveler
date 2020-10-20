@@ -1,0 +1,21 @@
+@import '../../variables';
+
+.ui.text.container.login {
+  .ui.basic.segment a {
+    position: relative;
+    z-index: 2;
+
+    &:hover {
+      color: lighten(@greySecondary, 8%);
+    }
+  }
+
+  .ui.inverted.dimmer {
+    z-index: 1;
+  }
+  div.content {
+    h2.header {
+      margin-top: 20vh;
+    }
+  }
+}

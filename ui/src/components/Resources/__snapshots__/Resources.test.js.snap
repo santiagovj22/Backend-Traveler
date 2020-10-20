@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`./components/Resources/Resources.js .render() should render the Resources component 1`] = `
+<div>
+  <Image
+    as="img"
+    centered={true}
+    className="img resource"
+    rounded={true}
+    size="large"
+    src="https://cdn.zeplin.io/5e1f6633eaa26ca7c49cab85/assets/B1D1D834-4632-4645-9F3E-3817DDBEDB34.png"
+    ui={true}
+  />
+  <Embed
+    url="https://www.youtube.com/watch?v=E_WQOBXE7us"
+  />
+</div>
+`;

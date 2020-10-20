@@ -1,0 +1,82 @@
+/*******************************
+     User Global Variables
+*******************************/
+/*-------------------
+       Fonts
+--------------------*/
+@fontName: 'Roboto';
+@fontSmoothing: antialiased;
+
+@headerFont: @fontName, sans-serif;
+@pageFont: @fontName, sans-serif;
+
+@googleFontName: @fontName;
+@importGoogleFonts: true;
+@googleSubset: 'latin';
+
+@googleProtocol: 'https://';
+@googleFontRequest: '@{googleFontName}:@{googleFontSizes}&subset=@{googleSubset}';
+
+/*-------------------
+    Border Radius
+--------------------*/
+/* See Power-user section below
+   for explanation of @px variables
+*/
+@relativeBorderRadius: @relative10px;
+@absoluteBorderRadius: @10px;
+
+/*-------------------
+    Brand Colors
+--------------------*/
+@primaryColor: @black;
+@secondaryColor: #9ea3a7;
+
+/*--------------
+  Page Heading
+---------------*/
+
+// @headerFontWeight: @bold;
+@headerLineHeight: unit((18 / 14), em);
+
+@h1: unit((18 / 14), rem);
+@h2: unit((16 / 14), rem);
+@h3: unit((14 / 14), rem);
+@h4: unit((13 / 14), rem);
+@h5: unit((12 / 14), rem);
+
+/*-------------------
+    Focused Input
+--------------------*/
+/* Used on inputs, textarea etc */
+@focusedFormBorderColor: none;
+
+/*-------------------
+        Page
+--------------------*/
+@pageBackground: #f6f8f9;
+@pageOverflowX: hidden;
+
+@lineHeight: 1.4285em;
+@textColor: @black;
+@paragraphMargin: 0em 0em 1em;
+@paragraphLineHeight: @lineHeight;
+
+/*-------------------
+       Links
+--------------------*/
+@linkColor: @white;
+
+/*-------------------
+      Site Colors
+--------------------*/
+
+/*---  Colors  ---*/
+@yellow: #ffba00;
+@pink: #fc6b76;
+@blue: #1db3eb;
+@teal: #748a9d;
+@grey: #91959a;
+@black: #4e4e4e;
+@white: #fff;
+@brown: #9ea3a7;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`./components/Loading/Loading.js .render() should render Loading component 1`] = `
+<Dimmer
+  active={true}
+  inverted={true}
+>
+  <Loader
+    size="large"
+  >
+    Loading...
+  </Loader>
+</Dimmer>
+`;

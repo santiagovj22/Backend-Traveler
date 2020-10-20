@@ -1,0 +1,5 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+/* Basic */
+@basicBorderSize: 0px;

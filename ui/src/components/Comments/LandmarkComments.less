@@ -1,0 +1,52 @@
+.landmark {
+  .ui.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+
+    .ui.card {
+      box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.05);
+      width: 100%;
+    }
+
+    .title {
+      display: flex;
+      i {
+        margin-right: 1rem;
+        position: relative;
+      }
+      .number {
+        position: absolute;
+        margin-left: 12px;
+        z-index: 1;
+        color: #fff;
+      }
+      .subtitle {
+        h2 {
+          margin-bottom: 0;
+        }
+        h4 {
+          margin-top: 0;
+          font-weight: lighter;
+        }
+      }
+    }
+
+    .description {
+      padding: 1rem 0;
+      line-height: 1.86;
+      height: 120px;
+      contain: content;
+    }
+  }
+
+  .ui.basic.segment {
+    margin: 0;
+    padding: 0 0 0.8rem 0;
+  }
+
+  hr {
+    border: solid 1px #e3e3e3;
+  }
+}

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`./components/ShareTour/ShareTour.js .render() should render ShareTour component 1`] = `
+<div>
+  <CopyToClipboard
+    onCopy={[Function]}
+    text="http://localhost/"
+  >
+    <Button
+      as="button"
+      className="btnshare"
+      icon="share alternate"
+      size="big"
+    />
+  </CopyToClipboard>
+</div>
+`;

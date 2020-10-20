@@ -1,0 +1,55 @@
+{
+  "name": "traveler",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint-plugin-jest": "^23.8.2",
+    "moment": "^2.27.0",
+    "oidc-client": "^1.10.1",
+    "react": "^16.13.1",
+    "react-app-polyfill": "^1.0.6",
+    "react-copy-to-clipboard": "^5.0.2",
+    "react-dom": "^16.13.1",
+    "react-id-swiper": "^3.0.0",
+    "react-infinite-scroll-component": "^5.0.5",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "semantic-ui-react": "^0.88.2",
+    "swiper": "^5.4.5",
+    "use-http": "^1.0.12",
+    "use-throttle": "0.0.3"
+  },
+  "scripts": {
+    "start": "craco start",
+    "lint": "eslint ./src/**/*.js",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^5.6.4",
+    "@semantic-ui-react/craco-less": "^1.2.1",
+    "enzyme": "^3.11.0",
+    "enzyme-to-json": "^3.4.4",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "jest-fetch-mock": "^3.0.3",
+    "semantic-ui-less": "^2.4.1"
+  }
+}

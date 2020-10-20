@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`./components/Error/Error.js .render() should render Error component 1`] = `
+<Message
+  icon={true}
+>
+  <Icon
+    as="i"
+    loading={true}
+    name="circle notched"
+  />
+  <MessageContent>
+    <MessageHeader>
+      Just one second
+    </MessageHeader>
+    We are fetching that content for you.
+  </MessageContent>
+</Message>
+`;

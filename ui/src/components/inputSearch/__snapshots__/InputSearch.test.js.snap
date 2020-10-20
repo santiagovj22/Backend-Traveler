@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`./components/Search/InputSearch.js .render() should render InputSearch component 1`] = `
+<Container
+  text={true}
+>
+  <GridColumn
+    align="center"
+  >
+    <Image
+      as="img"
+      centered={true}
+      className="logo"
+      size="small"
+      src="logo-traveler.svg"
+      ui={true}
+    />
+    <Form
+      as="form"
+    >
+      <FormField
+        className="search"
+      >
+        <Search
+          fluid={true}
+          icon="search"
+          input={
+            Object {
+              "icon": "search",
+              "iconPosition": "left",
+              "ref": undefined,
+            }
+          }
+          minCharacters={1}
+          noResultsMessage="No results found."
+          onKeyUp={[Function]}
+          placeholder="Looking for a new adventure?"
+          resultRenderer={[Function]}
+          results={null}
+          showNoResults={true}
+        />
+      </FormField>
+    </Form>
+  </GridColumn>
+</Container>
+`;

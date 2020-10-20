@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`./components/Login/Login.js .render() renders and matches our snapshot 1`] = `
+<Container
+  className="login"
+  text={true}
+>
+  <Segment
+    basic={true}
+  >
+    <Link
+      to="/"
+    >
+      <Icon
+        as="i"
+        className="arrow left"
+        color="brown"
+        size="large"
+      />
+    </Link>
+  </Segment>
+  <Dimmer
+    active={true}
+    inverted={true}
+  >
+    <Segment
+      basic={true}
+      padded={true}
+    >
+      <Header
+        as="h1"
+        color="brown"
+      >
+        Welcome to
+      </Header>
+    </Segment>
+    <Image
+      as="img"
+      size="medium"
+      src="logo-traveler.svg"
+      ui={true}
+    />
+    <Segment
+      basic={true}
+      padded="very"
+    >
+      <Header
+        as="h2"
+      >
+        your experience start here
+      </Header>
+    </Segment>
+    <Button
+      as="button"
+      circular={true}
+      color="pink"
+      data-testid="login"
+    >
+      <h1>
+        Login
+      </h1>
+    </Button>
+  </Dimmer>
+</Container>
+`;

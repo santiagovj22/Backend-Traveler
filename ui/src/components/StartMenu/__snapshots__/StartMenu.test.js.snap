@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`./components/StartMenu/StartMenu.js .render() should render the StartMenu component 1`] = `
+<Menu
+  className="start"
+  fixed="bottom"
+  secondary={true}
+  widths={2}
+>
+  <MenuItem>
+    <Header>
+      <Icon
+        as="i"
+        color="grey"
+        name="map marker alternate"
+      />
+      <HeaderContent>
+        Cochabamba
+      </HeaderContent>
+      <HeaderSubheader>
+        <Rating
+          clearable="auto"
+          defaultRating={3.7}
+          icon="favorite"
+          maxRating={5}
+        />
+        <span
+          className="rate"
+        >
+          3.7
+        </span>
+        <span
+          className="counter"
+        >
+          (
+          )
+        </span>
+      </HeaderSubheader>
+    </Header>
+  </MenuItem>
+  <MenuItem>
+    <Link
+      to="/tours/4912397a-023-4bad-87a8-cdf36e4e6c0c/tourview"
+    >
+      <Button
+        as="button"
+        circular={true}
+        color="pink"
+      >
+        <h2>
+          START
+        </h2>
+      </Button>
+    </Link>
+  </MenuItem>
+</Menu>
+`;

@@ -1,0 +1,6 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+/* Author */
+@authorFontSize: 16px;
+@authorColor: @textColor;

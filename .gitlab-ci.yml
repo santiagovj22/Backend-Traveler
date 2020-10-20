@@ -1,0 +1,51 @@
+stages:
+  - test
+  - build
+  - deploy
+
+.docker:
+  image: docker/compose:latest
+  services:
+    - docker:dind
+  before_script:
+    - echo "$CI_REGISTRY_PASSWORD" | docker login -u "$CI_REGISTRY_USER" --password-stdin $CI_REGISTRY
+
+ui_test:
+  image: node:latest
+  stage: test
+  before_script:
+    - cd ui
+    - npm install
+  script:
+    - npm run lint
+    - npm run test
+
+api_test:
+  image: python:3.6-slim-stretch
+  stage: test
+  extends: .docker
+  before_script:
+    - pip3 install pipenv
+    - cd api
+    - python3 -m pipenv install --system --dev --deploy
+  script:
+    - find . -type f -name "*.py" | xargs pylint
+    - python -m unittest discover -v ./tests
+
+build:
+  extends: .docker
+  stage: build
+  script:
+    - docker-compose build
+    - docker-compose push
+  only:
+    - develop
+
+deploy:
+  extends: .docker
+  stage: deploy
+  script:
+    - docker-compose down
+    - docker-compose up -d
+  only:
+    - develop

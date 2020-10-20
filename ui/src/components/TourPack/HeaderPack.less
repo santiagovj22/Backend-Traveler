@@ -1,0 +1,63 @@
+@import '../../variables';
+
+.tour.pack {
+  .ui.column {
+    padding-top: 20px;
+    position: relative;
+    z-index: 1;
+    text-shadow: 2px 2px 4px lighten(@primaryColor, 20%);
+    h1.header {
+      padding-top: .3rem;
+    }
+  }
+
+  .ui.fluid.image {
+    position: absolute;
+    top: 0;
+    &.tour.image {
+      height: 340px;
+      border-radius: 0 0 60px 60px;
+      object-fit: cover;
+    }
+  }
+
+  .ui.container.text {
+    top: 185px;
+    position: relative;
+
+    .ui.segments:nth-child(1) {
+      box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.16);
+      border-radius: 30px 30px 30px 30px;
+      background-color: @backgroundColor;
+
+      .horizontal.segments {
+        border-top: none;
+      }
+    }
+
+    .ui.segment,
+    .ui.compact.horizontal {
+      background-color: transparent;
+      border: none;
+      color: lighten(@primaryColor, 10%);
+
+      .large {
+        font-size: 22px;
+      }
+    }
+  }
+}
+.right.aligned.four.wide.column {
+  padding-top: 10px;
+}
+
+.ui.grid .column .ui.big.icon.button {
+  background: none;
+  padding: 5px 2px;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 2px lighten(@primaryColor, 20%);
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}

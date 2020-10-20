@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`./components/TourView/Landmark.js .render() should render the Landmark component 1`] = `
+<Fragment>
+  <div
+    className="landmark"
+    key="78214557"
+  >
+    <Container>
+      <Card>
+        <CardContent>
+          <div
+            className="title"
+          >
+            <h2
+              className="number"
+            />
+            <Icon
+              as="i"
+              color="blue"
+              name="marker"
+              size="big"
+            />
+            <div
+              className="subtitle"
+            >
+              <Header
+                as="h2"
+                color="blue"
+              >
+                Parque Principal
+              </Header>
+              <Header
+                as="h4"
+                color="brown"
+              >
+                <i>
+                  Km 
+                  1.5
+                </i>
+              </Header>
+            </div>
+          </div>
+          <CardDescription>
+            El Parque Principal donde todos se juntan para charlar es un sitio muy concurrido y realmente hermosa la fuente que abarca toda la plaza, está situada en el centro de una gran represa alrededor encontrarás lugares para tomarse un café o simplemente disfrutar la vista de un bello atardecer con agradable clima, descubrir tiendas llenas de artesanías y otros negocios de abarrotes. Las construcciones a su alrededor son llamativas. Desde allí prestan el servicio de transporte de mototaxis y jeep para dirigirte a la piedra o al municipio del Peñol.
+          </CardDescription>
+        </CardContent>
+      </Card>
+    </Container>
+    <Segment
+      basic={true}
+      className="see comments"
+    >
+      <LandmarksComment
+        landmark={
+          Object {
+            "category": "marker",
+            "description": "El Parque Principal donde todos se juntan para charlar es un sitio muy concurrido y realmente hermosa la fuente que abarca toda la plaza, está situada en el centro de una gran represa alrededor encontrarás lugares para tomarse un café o simplemente disfrutar la vista de un bello atardecer con agradable clima, descubrir tiendas llenas de artesanías y otros negocios de abarrotes. Las construcciones a su alrededor son llamativas. Desde allí prestan el servicio de transporte de mototaxis y jeep para dirigirte a la piedra o al municipio del Peñol.",
+            "distance": 1.5,
+            "idMarker": 78214557,
+            "name": "Parque Principal",
+          }
+        }
+      />
+    </Segment>
+    <hr />
+  </div>
+  <div
+    className="landmark"
+    key="78214558"
+  >
+    <Container>
+      <Card>
+        <CardContent>
+          <div
+            className="title"
+          >
+            <h2
+              className="number"
+            />
+            <Icon
+              as="i"
+              color="blue"
+              name="marker"
+              size="big"
+            />
+            <div
+              className="subtitle"
+            >
+              <Header
+                as="h2"
+                color="blue"
+              >
+                Plazoleta Zocalos
+              </Header>
+              <Header
+                as="h4"
+                color="brown"
+              >
+                <i>
+                  Km 
+                  2.5
+                </i>
+              </Header>
+            </div>
+          </div>
+          <CardDescription>
+            Su construcción inicio en el año 2010. Se comenzó un proyecto el cual consistió en que cada de las personas se apropiaran más de las raíces de su pueblo, haciendo que se formaran convites en pro de la zocalizacion logrando que los Guatapenses día a día se fueran identificando más con los zócalos y los colores que engalanan esta región, mostrando en el frontis de sus hogares figuras que cuentan historia yendo desde el primer zocalo (el cordero)  hasta figuras que muestran la identidad de las familias.
+          </CardDescription>
+        </CardContent>
+      </Card>
+    </Container>
+    <Segment
+      basic={true}
+      className="see comments"
+    >
+      <LandmarksComment
+        landmark={
+          Object {
+            "category": "marker",
+            "description": "Su construcción inicio en el año 2010. Se comenzó un proyecto el cual consistió en que cada de las personas se apropiaran más de las raíces de su pueblo, haciendo que se formaran convites en pro de la zocalizacion logrando que los Guatapenses día a día se fueran identificando más con los zócalos y los colores que engalanan esta región, mostrando en el frontis de sus hogares figuras que cuentan historia yendo desde el primer zocalo (el cordero)  hasta figuras que muestran la identidad de las familias.",
+            "distance": 2.5,
+            "idMarker": 78214558,
+            "name": "Plazoleta Zocalos",
+          }
+        }
+      />
+    </Segment>
+    <hr />
+  </div>
+  <div
+    className="landmark"
+    key="78214559"
+  >
+    <Container>
+      <Card>
+        <CardContent>
+          <div
+            className="title"
+          >
+            <Icon
+              as="i"
+              color="blue"
+              name="info circle"
+              size="big"
+            />
+            <div
+              className="subtitle"
+            >
+              <Header
+                as="h2"
+                color="blue"
+              >
+                Museo Historico Guatapé
+              </Header>
+              <Header
+                as="h4"
+                color="brown"
+              >
+                <i>
+                  Km 
+                  3.2
+                </i>
+              </Header>
+            </div>
+          </div>
+          <CardDescription>
+            El museo histórico de Guatapé esta ubicado en la calle del recuerdo. en el se da a conocer la historia del municipio. La apertura del museo abre otra perspectiva cultural a Guatapé, porque se enfoca también en la recuperación de la memoria y la cultura histórica del municipio. 
+          </CardDescription>
+        </CardContent>
+      </Card>
+    </Container>
+    <Segment
+      basic={true}
+      className="see comments"
+    >
+      <LandmarksComment
+        landmark={
+          Object {
+            "category": "info circle",
+            "description": "El museo histórico de Guatapé esta ubicado en la calle del recuerdo. en el se da a conocer la historia del municipio. La apertura del museo abre otra perspectiva cultural a Guatapé, porque se enfoca también en la recuperación de la memoria y la cultura histórica del municipio. ",
+            "distance": 3.2,
+            "idMarker": 78214559,
+            "name": "Museo Historico Guatapé",
+          }
+        }
+      />
+    </Segment>
+    <hr />
+  </div>
+</Fragment>
+`;

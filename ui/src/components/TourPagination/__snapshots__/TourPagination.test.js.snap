@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`./components/TourPagination/TourPagination.js .render() should render TourPagination component 1`] = `
+<Container
+  text={true}
+>
+  <Grid
+    columns={3}
+    padded={true}
+  >
+    <GridColumn
+      width={4}
+    >
+      <Link
+        to="/"
+      >
+        <Icon
+          as="i"
+          className="arrow left header"
+          color="pink"
+          size="large"
+        />
+      </Link>
+    </GridColumn>
+    <GridColumn
+      textAlign="center"
+      width={8}
+    >
+      <Header
+        color="pink"
+      >
+        <h2>
+          See All Tours
+        </h2>
+      </Header>
+    </GridColumn>
+  </Grid>
+  <GridRow>
+    <InfiniteScroll
+      dataLength={6}
+      hasMore={true}
+      style={
+        Object {
+          "overflow": "hidden",
+        }
+      }
+    >
+      <Grid
+        columns={2}
+      >
+        <TourCard
+          key="5ec573d6f235707135952a94"
+          tour={
+            Object {
+              "_id": "5ec573d6f235707135952a94",
+              "title": "El mejor recorrido en Bici hasta Incachaca",
+            }
+          }
+        />
+        <TourCard
+          key="5ec573d6f235707135952a95"
+          tour={
+            Object {
+              "_id": "5ec573d6f235707135952a95",
+              "title": "Camino a la piedra de Guatapé",
+            }
+          }
+        />
+        <TourCard
+          key="5ec573d6f235707135952a96"
+          tour={
+            Object {
+              "_id": "5ec573d6f235707135952a96",
+              "title": "Historia de las playas de Bahia a pie",
+            }
+          }
+        />
+        <TourCard
+          key="5ec574f6f235707135952a97"
+          tour={
+            Object {
+              "_id": "5ec574f6f235707135952a97",
+              "title": "Cuba en bus, conociendo la Revolución Cubana",
+            }
+          }
+        />
+        <TourCard
+          key="5ec574f6f235707135952a98"
+          tour={
+            Object {
+              "_id": "5ec574f6f235707135952a98",
+              "title": "Ruta del tintico, lo mejor del café de Colombia",
+            }
+          }
+        />
+        <TourCard
+          key="5ec574f6f235707135952a99"
+          tour={
+            Object {
+              "_id": "5ec574f6f235707135952a99",
+              "title": "Tour de Boliches en la Ciudad Maravilla",
+            }
+          }
+        />
+      </Grid>
+    </InfiniteScroll>
+  </GridRow>
+</Container>
+`;

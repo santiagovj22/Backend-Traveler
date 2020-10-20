@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`./components/NavBar/NavBar.js .render() renders and matches our snapshot 1`] = `
+<Menu
+  className="main navbar"
+  fixed="bottom"
+  widths={3}
+>
+  <MenuItem
+    data-testid="item"
+  >
+    <Segment
+      basic={true}
+    >
+      <Icon
+        as="i"
+        name="search"
+        size="large"
+      />
+      <Header
+        as="h5"
+      >
+        EXPLORE
+      </Header>
+    </Segment>
+  </MenuItem>
+  <MenuItem
+    data-testid="item"
+  >
+    <Link
+      to="/favorites"
+    >
+      <Segment
+        basic={true}
+      >
+        <Icon
+          as="i"
+          name="heart outline"
+          size="large"
+        />
+        <Header
+          as="h5"
+        >
+          SAVED
+        </Header>
+      </Segment>
+    </Link>
+  </MenuItem>
+  <MenuItem
+    className="login"
+    data-testid="item"
+  >
+    <Link
+      to="/register"
+    >
+      <Segment
+        basic={true}
+      >
+        <Icon
+          as="i"
+          className="user"
+          name="user"
+          size="large"
+        />
+        <Header
+          as="h5"
+          className="profile"
+        >
+          PROFILE
+        </Header>
+      </Segment>
+    </Link>
+  </MenuItem>
+</Menu>
+`;

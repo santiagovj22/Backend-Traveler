@@ -1,0 +1,49 @@
+@import '../../variables';
+
+div.ui.menu.item.bottom.fixed.main.navbar {
+  height: 93px;
+  border-radius: 50px !important;
+  box-shadow: 0 -3px 20px 0 rgba(0, 0, 0, 0.16);
+  backdrop-filter: blur(10px);
+  opacity: 0.9;
+
+  :before {
+    background: none;
+  }
+
+  .item:hover {
+    .ui.basic.segment,
+    .header:not(h6) {
+      color: @salmonPink;
+    }
+  }
+
+  .ui.basic.segment {
+    color: @greySecondary;
+    img {
+      margin: 0 auto;
+      padding-bottom: 0px;
+      position: relative;
+      top: 1px;
+    }
+    .profile {
+      bottom: 5px;
+      margin-bottom: 4px;
+      padding-top: 0px;
+      position: relative;
+    }
+    .user {
+      margin-bottom: 13px;
+      padding-top: 8px;
+    }
+
+  }
+
+
+
+
+  .header:not(h6) {
+    margin-top: 0.8rem;
+    color: @greySecondary;
+  }
+}

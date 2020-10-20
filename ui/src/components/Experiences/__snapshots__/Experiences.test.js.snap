@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`./components/Experiences/Experiences.js .render() should render the Experiences component 1`] = `
+<Container
+  className="experiences tour"
+  text={true}
+>
+  <Header
+    as="h2"
+    color="blue"
+  >
+    Travelers Experiences
+  </Header>
+  <OpenDown
+    experiences={Array []}
+    getAllExperiences={[Function]}
+    totalExperiences={0}
+  />
+</Container>
+`;

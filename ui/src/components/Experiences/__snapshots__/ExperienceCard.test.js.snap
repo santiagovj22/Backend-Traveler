@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`./components/Experiences/ExperienceCard.js .render() should render the ExperienceCard component 1`] = `
+<CommentGroup
+  className="recomendations"
+>
+  <Comment
+    id="5eecd780c9df78c86a6ct541x"
+  >
+    <Image
+      as="img"
+      avatar={true}
+      bordered={true}
+      circular={true}
+      floated="left"
+      rounded={true}
+      size="mini"
+      src="https://lh5.googleusercontent.com/-nfK-6KaZMRg/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmGlEjmzOXQl1tS5svUBgOqLfcXRw/photo.jpg"
+      ui={true}
+    />
+    <CommentContent>
+      <CommentAuthor
+        as="a"
+      >
+        Albeiro Crespo
+      </CommentAuthor>
+      <CommentMetadata>
+        <Icon
+          as="i"
+          className="clock outline"
+        />
+        <div>
+          25 d ago
+        </div>
+      </CommentMetadata>
+      <div>
+        <Rating
+          clearable="auto"
+          defaultRating={4}
+          icon="favorite"
+          maxRating={4}
+        />
+      </div>
+    </CommentContent>
+    <CommentText>
+      Vocês passam no Cristo de la Concórdia? Tem disponibilidade para o dia 18/08? E vocês pegam passageiros na rodoviária?
+    </CommentText>
+    <Resources
+      resources={
+        Array [
+          Object {
+            "source": "https://www.youtube.com/watch?v=E_WQOBXE7us",
+            "type": "video",
+          },
+        ]
+      }
+    />
+  </Comment>
+</CommentGroup>
+`;

@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`./components/Favorites/FavoriteView.js .render() should render FavoriteView component 1`] = `
+<Container
+  className="favorites"
+  text={true}
+>
+  <Grid
+    columns={3}
+    padded={true}
+  >
+    <GridColumn
+      width={4}
+    >
+      <Link
+        to="/"
+      >
+        <Icon
+          as="i"
+          className="arrow left header"
+          color="pink"
+          size="large"
+        />
+      </Link>
+    </GridColumn>
+    <GridColumn
+      textAlign="center"
+      width={8}
+    >
+      <Header
+        color="pink"
+      >
+        <h2>
+          My Favorites
+        </h2>
+      </Header>
+    </GridColumn>
+  </Grid>
+  <GridRow>
+    <Grid
+      columns={2}
+    >
+      <FavoritePack
+        key="5ec573d6f235707135952a95"
+        tour={
+          Object {
+            "_id": "5ec573d6f235707135952a95",
+            "title": "Camino a la piedra de Guatapé",
+          }
+        }
+      />
+      <FavoritePack
+        key="5ec573d6f235707135952a96"
+        tour={
+          Object {
+            "_id": "5ec573d6f235707135952a96",
+            "title": "Historia de las playas de Bahia a pie",
+          }
+        }
+      />
+      <FavoritePack
+        key="5ec574f6f235707135952a97"
+        tour={
+          Object {
+            "_id": "5ec574f6f235707135952a97",
+            "title": "Cuba en bus, conociendo la Revolución Cubana",
+          }
+        }
+      />
+      <FavoritePack
+        key="5ec574f6f235707135952a98"
+        tour={
+          Object {
+            "_id": "5ec574f6f235707135952a98",
+            "title": "Ruta del tintico, lo mejor del café de Colombia",
+          }
+        }
+      />
+    </Grid>
+  </GridRow>
+</Container>
+`;

@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`./components/TourPackages/TourCard.js .render() should render the TourCard component 1`] = `
+<GridColumn
+  id="3402397a-01a6-4bad-87a8-cdc36e4e6c0c"
+>
+  <Link
+    to="/tours/3402397a-01a6-4bad-87a8-cdc36e4e6c0c"
+  >
+    <Image
+      as="img"
+      centered={true}
+      size="small"
+      ui={true}
+    />
+    <CardContent>
+      <CardHeader
+        className="card title"
+      >
+        El mejor recorrido en Bici hasta Incachaca
+      </CardHeader>
+      <GridColumn>
+        <CardMeta>
+          <Icon
+            as="i"
+            name="map marker alternate"
+          />
+          <span />
+        </CardMeta>
+        <CardContent>
+          <Rating
+            clearable="auto"
+            icon="favorite"
+            maxRating={5}
+          />
+          <span
+            className="rate"
+          />
+          <span
+            className="counter"
+          >
+            (
+            )
+          </span>
+        </CardContent>
+      </GridColumn>
+    </CardContent>
+  </Link>
+</GridColumn>
+`;

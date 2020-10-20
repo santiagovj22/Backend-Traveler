@@ -1,0 +1,80 @@
+@media (max-width: 520px) {
+    #logo{
+        width: 136px;
+        height: 51px;
+        margin: 15px 10px 10px 10px;
+    }
+    #search{
+        width: 300px;
+        border-radius: 12px;
+        box-shadow: 5px 6px 6px -2px rgba(182, 176, 187, 0.4);
+        border: solid 1px rgba(229, 229, 229, 0.2);
+        object-fit: cover;
+    }
+    .input.container{
+        margin-bottom: 26px;
+    }
+    .trending.title {
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        flex-direction: row;
+        font-weight: bold;
+        color:#fc6b76;
+        font-size: 16px;
+        margin-left: 1rem;
+    }
+    .trending.title .trending.icon{
+        color: #fa6974;
+        position: relative;
+        left: 20px;
+    }
+    .tour.packages{
+        height: 350px;
+    }
+    .second{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tour.packages .card.tours{
+        width: 90%;
+        height: 313px;
+        margin:0 auto;
+        border-radius: 20px;
+        box-shadow: 5px 6px 6px -2px rgba(182, 176, 187, 0.4);
+        border: solid 1px rgba(229, 229, 229, 0.2);
+    }
+    .card.tours .image.tour{
+        object-fit: cover ;
+        width: 100%;
+        height: 150px;
+    }
+    
+    .description{
+        font-family: Roboto;
+        font-size: 13px;
+        line-height: 1.23;
+        margin: 10px 10px 10px 10px;
+        color: #91959a;
+    }
+    #title{
+        font-family: 'Roboto', sans-serif ;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.25;
+        color: #4e4e4e;
+    }
+    .rating-location {
+        display: flex;
+        justify-content: space-between
+    }
+    .rating-location p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        color: #748a9d;
+    }
+    .rating-points {
+        display: flex;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,7 @@
+docker run --rm -it -v $(pwd):/etc/gitlab-runner \
+  gitlab/gitlab-runner register
+
+docker run -d --name gitlab-runner-docker --restart always \
+  -v $(pwd):/etc/gitlab-runner \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  gitlab/gitlab-runner:latest
